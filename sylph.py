@@ -17,7 +17,7 @@ def banner():
 def __user__():
 	banner()
 	print("please export INTFRAMEWORK_PATH and run this script")
-	os.system("cp modules/* $INTFRAMEWORK_PATH/modules/")
+	os.system("cp -r modules/* $INTFRAMEWORK_PATH/modules/")
 	os.system("chmod +x bin/*")
 	os.system("cp bin/* $PREFIX/bin/")
 	print(f"{Fore.GREEN}[+] Finished ...")
