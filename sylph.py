@@ -19,7 +19,7 @@ def __user__():
 	print("please export INTFRAMEWORK_PATH and run this script")
 	os.system("cp -r modules/* $INTFRAMEWORK_PATH/modules/")
 	os.system("chmod +x bin/*")
-	os.system("cp bin/* $PREFIX/bin/")
+	os.system("cp -r bin/* $PREFIX/bin/")
 	print(f"{Fore.GREEN}[+] Finished ...")
 	print(f"{Fore.BLUE}[~] Example: use intframework::modules::exploits::android::Janus::exploit")
 	print(f"{Fore.BLUE}[~] And run : run <--help>")
