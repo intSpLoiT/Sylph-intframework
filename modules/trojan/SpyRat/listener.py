@@ -36,7 +36,7 @@ active=False
 clients=[]
 socks=[]
 interval=0.8
-print('\nListening 4 clients.....\N')
+print('\nListening 4 clients.....')
 
 while True:
     try:
