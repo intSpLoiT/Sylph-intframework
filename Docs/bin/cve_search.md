@@ -29,8 +29,6 @@ options:
 (for script kiddies)
 # **cve_search Module in intframework**
 
-The **cve_search** module is designed to search for **Common Vulnerabilities and Exposures (CVE)** information. It allows users to query specific CVEs, Linux kernel versions, products, or product versions to find relevant security vulnerabilities. However, for "script kiddies" (inexperienced users), this tool may be misunderstood or misused. Here’s a simplified explanation:
-
 ---
 
 ### **What is the cve_search module, and how does it work?**
